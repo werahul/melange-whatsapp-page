@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+.workTogether {
+    background-color: black;
+}
+
+.workTogether:hover {
+    background: linear-gradient(to right, rgba(56, 88, 255, 1), rgba(183, 69, 255, 1), rgba(217, 64, 255, 1));
+}
+
+.heroSec {
+    background-image: url('./assets/images/hero-bg.png');
+    background-size: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    /* margin-top: -6.4rem; */
+    /* padding-top: 80px; */
+}
+
+@media (max-width:768px) {
+    .heroSec {
+        background-image: url('./assets/images/hero-bg-mobile.png');
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 800px;
+        /* margin-top: -6.4rem;  */
+
+    }
+  
+    
+}
+
+.gradiant-text {
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.showCase {
+    background-image: url('./assets/images/ShowBg.png');
+    background-size: 110%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:768px) {
+    .showCase {
+        background-image: url('./assets/images/ShowBg-mobile.png');
+        background-size: 114%;
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+    
+}
+.whatsappMarketing {
+    background-image: url('./assets/images/ShowBg.png');
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 748px;
+}
+
+/* Navbar css */
+
+.navbar-link {
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+.navbar-link:hover {
+    position: relative;
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+
+
+
+.navbar-link:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(80%);
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+}
+
+.navbar-contact {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+}
+
+.active-link {
+    /* Add your gradient styles */
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+    /* Add your underline styles */
+    text-decoration: underline;
+}
+
+
+
+.navbar-contact:hover {
+    position: relative;
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+    transition: linear 3s ease-in;
+}
+
+.navbar-contact:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(80%);
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+}
+
+.workWithUs{
+    background-image: url('./assets/images/ShowBg.png');
+    background-size: 110%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.formSec{
+    background-image: url('./assets/images/ShowBg.png');
+    background-size: 110%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.submitBtn{
+    background: linear-gradient(to right, rgba(56, 88, 255, 1), rgba(183, 69, 255, 1), rgba(217, 64, 255, 1));
+    color: white;
+}
+.submitBtn:hover{
+    background: black;
+    color: white;
+}
+@media (max-width:768px) {
+    .workWithUs{
+        background-image: url('./assets/images/ShowBg-mobile.png');
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+    .formSec{
+        background-image: url('./assets/images/ShowBg-mobile.png');
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+    .whatsappMarketing {
+        background-image: url('./assets/images/ShowBg-mobile.png');
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+.gradiant-text2 {
+    background: linear-gradient(268.81deg, #3858FF 28.07%, #B745FF 74.52%, #D940FF 101.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.gradiant-text2:hover {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+/* Add this CSS to your component's CSS file */
+.review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+  }
+  
+  .slider-dots {
+    text-align: center;
+    margin-top: 20px;
+    /* background-color: #3858FF; */
+  }
+
+   .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  } 
+  
+   .dot.active {
+    background-color: #0070f3;
+  } 
+  

@@ -1,0 +1,12 @@
+export { default as Navbar } from "./Navbar";
+export { default as HeroSection } from "./HeroSection";
+export { default as Testimonials } from "./Testimonials";
+export { default as ShowCase } from "./ShowCase";
+export { default as Inegerate } from "./Inegerate";
+export { default as WhatsappMarketing } from "./WhatsappMarketing";
+export { default as OurJourney } from "./OurJourney";
+export { default as WorkWithUs } from "./WorkWithUs";
+export { default as OurClients } from "./OurClients";
+export { default as Form } from "./Form";
+export { default as Footer } from "./Footer";
+// export { default as Extra } from "./Extra";
