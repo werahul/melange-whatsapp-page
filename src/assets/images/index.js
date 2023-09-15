@@ -45,7 +45,7 @@ import show2 from './show2.png'
 import rock1 from './rock1.png'
 import rock2 from './rock2.png'
 
-import melangeLogo2 from './melange_logo2.png'
+import melangeLogo2 from './melange_logo2.svg'
 import certificate1 from './certificate1.png'
 import certificate2 from './certificate2.png'
 import linkedin from './linkedin.png'
