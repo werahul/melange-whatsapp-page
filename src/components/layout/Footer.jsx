@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-[#1A1A1A] pt-10 font-nunito px-0 lg:px-14 mt-[70px]">
+    <div className="bg-[#1A1A1A] pt-10 font-nunito px-2 lg:px-14 mt-[70px]">
       <div className="flex justify-evenly  flex-col lg:flex-row text-white items-start ml-6 md:ml-0">
         <div className="flex flex-col justify-between">
           <div>
@@ -47,7 +47,7 @@ const Footer = () => {
             </h2>
             <a
               href="tel:+917700974123"
-              className="text-base md:text-lg mb-2 md:mb-0 md:mt-2"
+              className="text-sm md:text-lg mb-2 md:mb-0 md:mt-2"
             >
               +91 7700974123
             </a>
@@ -58,7 +58,7 @@ const Footer = () => {
             </h2>
             <a
               href="mailto:hello@melangedigital.in"
-              className="text-base mt-2 underline md:text-lg"
+              className="text-sm mt-2 underline md:text-lg"
             >
               hello@melangedigital.in
             </a>

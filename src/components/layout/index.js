@@ -9,4 +9,4 @@ export { default as WorkWithUs } from "./WorkWithUs";
 export { default as OurClients } from "./OurClients";
 export { default as Form } from "./Form";
 export { default as Footer } from "./Footer";
-// export { default as Extra } from "./Extra";
+export { default as BackToTop } from "./BackToTop";

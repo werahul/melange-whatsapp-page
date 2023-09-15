@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar,HeroSection, Testimonials,ShowCase, Inegerate, WhatsappMarketing,OurJourney , WorkWithUs, OurClients, Form, Footer, } from './components/layout/index'
+import {Navbar,HeroSection, Testimonials,ShowCase, Inegerate, WhatsappMarketing,OurJourney , WorkWithUs, OurClients, Form, Footer, BackToTop, } from './components/layout/index'
 
 const App = () => {
   return (
@@ -14,7 +14,9 @@ const App = () => {
     <WorkWithUs/>
     <OurClients dotColor="#0070f3"/>
     <Form/>
+    <BackToTop/>
     <Footer/>
+
     </div>
   )
 }

@@ -41,11 +41,11 @@ const Navbar = () => {
           }}
         >
           <div to="/">
-            <img
+            <a href="#/"> <img
               src={mainLogo}
               alt="Logo"
               className="w-[100%] md:w-auto z-0 h-[100%]  md:h-12 "
-            />
+            /></a>
           </div>
         </div>
 

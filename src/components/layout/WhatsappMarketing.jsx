@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlueEllipse, mobile, mobile2, pointerLine, pointerLine2, line1, line2, line3, line4, line5, line6 ,show1, show2 } from '../../assets/images'
+import { BlueEllipse, mobile, mobile2, pointerLine, pointerLine2, line1, line2, line3, line4, line5, line6, show1, show2 } from '../../assets/images'
 
 const WhatsappMarketing = () => {
     return (
@@ -33,9 +33,9 @@ const WhatsappMarketing = () => {
 
                 <div className="part2 relative flex items-center justify-center  ">
                     <div className="mt-[5rem] h-[420px]">
-                        <img src={BlueEllipse} alt="" />
+                        <img src={BlueEllipse} alt="" />  
                     </div>
-                    <div className="absolute top-0">  <img src={mobile} alt="" /></div>
+                    <div className="absolute">  <img src={mobile} alt="" className='ml-3'/></div>
                 </div>
 
                 <div className="part3 w-[450px]  ">
@@ -62,52 +62,52 @@ const WhatsappMarketing = () => {
                 </div>
             </div>
             <div className="lg:hidden">
-            
-        
-            <div className="part1  flex justify-between h-[130px]  mt-[47px] mb-8">
-                <div className="flex flex-col justify-center items-center">
-                    <div className="z-10 w-[108px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center mt-auto"  >
-                        <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-sm font-bold font-nunito">10x Higher Engagement</p>
-                    </div>
-                    <img src={line1} alt="" className='w-8 h-10 ml-6' />
-                </div>
-                <div className="flex flex-col justify-center items-center">
-                    <div className="z-10 w-[108px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center" >
-                        <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-sm font-bold font-nunito">Permission-Based Broadcasts</p>
-                    </div>
-                    <img src={line2} alt="" className='w-2 h-20' />
-                </div>
-                <div className="flex flex-col justify-center items-center">
-                    <div className="z-10 w-[108px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center mt-auto" >
-                        <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-sm font-bold font-nunito">Real-Time Conversion</p>
-                    </div>
-                    <img src={line3} alt="" className='w-8 h-10 mr-8' />
-                </div>
-            </div>
-            <div className="part2 flex justify-center items-center ">
-                <img src={mobile2} alt="" />
-            </div>
 
-            <div className="part3 flex justify-between h-[100px] mt-8 ">
-                <div className="flex flex-col justify-center items-center">
-                    <img src={line4} alt="" className='w-8 h-10 ml-8' />
-                    <div className="z-10 w-[108px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center" >
-                        <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-sm font-bold font-nunito">Cart Abandonment Solution</p>
+
+                <div className="part1  flex justify-between h-[130px]  mt-[47px] mb-8">
+                    <div className="flex flex-col justify-center items-center">
+                        <div className="z-10 w-[100px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center mt-auto"  >
+                            <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-[12px] font-bold font-nunito">10x Higher Engagement</p>
+                        </div>
+                        <img src={line1} alt="" className='w-8 h-10 ml-6' />
+                    </div>
+                    <div className="flex flex-col justify-center items-center">
+                        <div className="z-10 w-[100px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center" >
+                            <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-[12px] font-bold font-nunito">Permission-Based Broadcasts</p>
+                        </div>
+                        <img src={line2} alt="" className='w-2 h-20' />
+                    </div>
+                    <div className="flex flex-col justify-center items-center">
+                        <div className="z-10 w-[100px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center mt-auto" >
+                            <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-[12px] font-bold font-nunito">Real-Time Conversion</p>
+                        </div>
+                        <img src={line3} alt="" className='w-8 h-10 mr-8' />
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center">
-                    <img src={line5} alt="" className='w-2 h-20 ' />
-                    <div className="z-10 w-[108px]  h-auto bg-white hover:bg-slate-800  rounded flex justify-center items-center mt-auto" >
-                        <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-sm font-bold font-nunito">Personalized Shopping Experience</p>
+                <div className="part2 flex justify-center items-center ">
+                    <img src={mobile2} alt="" />
+                </div>
+
+                <div className="part3 flex justify-between h-[100px] mt-8 ">
+                    <div className="flex flex-col justify-center items-center">
+                        <img src={line4} alt="" className='w-8 h-10 ml-8' />
+                        <div className="z-10 w-[100px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center" >
+                            <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-[12px] font-bold font-nunito">Cart Abandonment Solution</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col justify-center items-center">
+                        <img src={line5} alt="" className='w-2 h-20 ' />
+                        <div className="z-10 w-[100px]  h-auto bg-white hover:bg-slate-800  rounded flex justify-center items-center mt-auto" >
+                            <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-[12px] font-bold font-nunito">Personalized Shopping Experience</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col justify-center items-center">
+                        <img src={line6} alt="" className='w-8 h-10 mr-8' />
+                        <div className="z-10 w-[100px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center" >
+                            <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-[12px] font-bold font-nunito">24/7 Virtual Assistant</p>
+                        </div>
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center">
-                    <img src={line6} alt="" className='w-8 h-10 mr-8' />
-                    <div className="z-10 w-[108px]  h-[66px] bg-white hover:bg-slate-800  rounded flex justify-center items-center" >
-                        <p className="text-center gradiant-text2 border h-full w-full flex items-center justify-center text-sm font-bold font-nunito">24/7 Virtual Assistant</p>
-                    </div>
-                </div>
-            </div>
             </div>
             <div className="lg:block hidden absolute top-[12%] left-[7%]"><img src={show2} alt="" /></div>
             <div className=" lg:block hidden absolute bottom-[17%] right-[2%]"><img src={show1} alt="" /></div>
