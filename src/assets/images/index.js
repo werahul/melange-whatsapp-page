@@ -52,6 +52,7 @@ import certificate2 from './certificate2.png'
 import linkedin from './linkedin.png'
 
 import W4mobile from './W4mobile.png'
+import W4mobileComp from './W4mobileComp.png'
 import BlueEllipse4Mobile from './BlueEllipse4Mobile.png'
 
 export {mainLogo, heroBg, heroImg , comma, SanketSir, ShowBg, analytics,
@@ -60,4 +61,4 @@ icon1, icon2 ,icon3, icon4 ,icon5, icon6,
 our1, our2, our3, our4,
 ourlogo1, ourlogo2, ourlogo3, ourlogo4, abImg, check,comma2, linkedin, certificate1 ,certificate2, melangeLogo2,
 line1, line2, line3, line4, line5, line6, triPurple, triBlue, show1, show2, rock1, rock2, mainLogo3x,
- W4mobile, BlueEllipse4Mobile}
+ W4mobile, BlueEllipse4Mobile, W4mobileComp}
