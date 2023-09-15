@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { mainLogo } from "../../assets/images";
+import { mainLogo, mainLogo3x } from "../../assets/images";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const Navbar = () => {
@@ -42,7 +42,7 @@ const Navbar = () => {
         >
           <div to="/">
             <a href="#/"> <img
-              src={mainLogo}
+              src={mainLogo3x}
               alt="Logo"
               className="w-[100%] md:w-auto z-0 h-[100%]  md:h-12 "
             /></a>

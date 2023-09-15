@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlueEllipse, mobile, mobile2, pointerLine, pointerLine2, line1, line2, line3, line4, line5, line6, show1, show2 } from '../../assets/images'
+import { BlueEllipse, mobile, mobile2, pointerLine, pointerLine2, line1, line2, line3, line4, line5, line6, show1, show2 ,  W4mobile, BlueEllipse4Mobile} from '../../assets/images'
 
 const WhatsappMarketing = () => {
     return (
@@ -84,9 +84,16 @@ const WhatsappMarketing = () => {
                         <img src={line3} alt="" className='w-8 h-10 mr-8' />
                     </div>
                 </div>
-                <div className="part2 flex justify-center items-center ">
-                    <img src={mobile2} alt="" />
+
+
+                <div className="part2 relative flex items-center justify-center  ">
+                    <div className="mt-[3rem]  h-[310px]">
+                        <img src={BlueEllipse4Mobile} alt="" />  
+                    </div>
+                    <div className="absolute">  <img src={W4mobile} alt="" className='ml-3 h-[400px] mb-3'/></div>
                 </div>
+
+
 
                 <div className="part3 flex justify-between h-[100px] mt-8 ">
                     <div className="flex flex-col justify-center items-center">

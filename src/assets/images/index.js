@@ -1,4 +1,5 @@
 import mainLogo from './logo.svg'
+import mainLogo3x from './m3xlogo.png'
 import heroBg from './hero-bg.png'
 import heroImg from './hero-image.png'
 import comma from './invertedComma.png'
@@ -50,9 +51,13 @@ import certificate1 from './certificate1.png'
 import certificate2 from './certificate2.png'
 import linkedin from './linkedin.png'
 
+import W4mobile from './W4mobile.png'
+import BlueEllipse4Mobile from './BlueEllipse4Mobile.png'
+
 export {mainLogo, heroBg, heroImg , comma, SanketSir, ShowBg, analytics,
 int1, int2, int3, int4 ,incRevenue, mobile, mobile2, BlueEllipse , pointerLine, pointerLine2,
 icon1, icon2 ,icon3, icon4 ,icon5, icon6,
 our1, our2, our3, our4,
 ourlogo1, ourlogo2, ourlogo3, ourlogo4, abImg, check,comma2, linkedin, certificate1 ,certificate2, melangeLogo2,
-line1, line2, line3, line4, line5, line6, triPurple, triBlue, show1, show2, rock1, rock2}
+line1, line2, line3, line4, line5, line6, triPurple, triBlue, show1, show2, rock1, rock2, mainLogo3x,
+ W4mobile, BlueEllipse4Mobile}
