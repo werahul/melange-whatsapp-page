@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-[#1A1A1A] pt-10 font-nunito px-2 lg:px-14 mt-[70px]">
-      <div className="flex justify-evenly  flex-col lg:flex-row text-white items-start ml-6 md:ml-0">
+      <div className="flex justify-evenly  flex-col lg:flex-row text-white items-start ml-4 md:ml-0">
         <div className="flex flex-col justify-between">
           <div>
             <img
@@ -73,7 +73,7 @@ const Footer = () => {
             />
           </div>
           <div>
-            <img src={certificate2} alt="" className="ml-8 lg:ml-2 " />
+            <img src={certificate2} alt="" className="ml-4 lg:ml-2 " />
           </div>
         </div>
       </div>

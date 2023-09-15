@@ -39,7 +39,7 @@ const OurClients = ({ dotColor }) => {
     ];
 
     return (
-        <div className='lg:py-20 py-[50px] lg:px-20 px-5 font-nunito'>
+        <div className='lg:py-20 py-[50px] lg:px-20 px-8 font-nunito'>
             <div className="text-center gradiant-text lg:text-[40px] text-2xl font-semibold leading-[48px]">
                 Our Happy Clients
             </div>
