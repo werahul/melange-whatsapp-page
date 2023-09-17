@@ -17,7 +17,7 @@ const HeroSection = () => {
 
                     <div className=" text-black lg:text-xl  text-base font-normal lg:leading-relaxed leading-tight mt-2 lg:mt-4">Unlock the potential of this powerful platform and revolutionize your marketing strategy with our WhatsApp Marketing Service.<br /></div>
 
-                    <a href="#contactus"><button className="text-white text-xl font-semibold leading-[35px] font-nunito w-[114px] h-11 px-[23px] py-0.5 bg-gradient-to-l from-indigo-500 to-purple-400 hover:from-purple-500 hover:to-indigo-500 rounded-[30px] justify-center items-center gap-3 inline-flex mt-4 lg:mt-4">Hire Us</button></a>
+                    <a href="#contactus"><button className="text-white text-xl font-semibold leading-[35px] font-nunito w-[114px] h-11 px-[23px] py-0.5 bg-gradient-to-l from-indigo-500 to-purple-400 hover:from-purple-500 hover:to-indigo-500 rounded-[30px] justify-center items-center gap-3 inline-flex mt-4 lg:mt-4 whitespace-nowrap">Hire Us</button></a>
 
                 </div>
                 <div className="lg:mt-0 mt-14">

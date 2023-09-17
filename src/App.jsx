@@ -1,23 +1,18 @@
 import React from 'react'
-import {Navbar,HeroSection, Testimonials,ShowCase, Inegerate, WhatsappMarketing,OurJourney , WorkWithUs, OurClients, Form, Footer, BackToTop, } from './components/layout/index'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import { Home, ThankYou } from './components/Pages'
 
 const App = () => {
   return (
-    <div> 
+    <BrowserRouter> 
   
-    <HeroSection/>
-    <Testimonials/>
-    <ShowCase/>
-    <Inegerate/>
-    <WhatsappMarketing/>
-    <OurJourney/>
-    <WorkWithUs/>
-    <OurClients dotColor="#0070f3"/>
-    <Form/>
-    <BackToTop/>
-    <Footer/>
+    <Routes>
+      <Route exact path='/' Component={Home}/>
+      <Route path='/thankyou' Component={ThankYou}/>
+    </Routes>
+  
 
-    </div>
+    </BrowserRouter>
   )
 }
 
